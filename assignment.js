@@ -1,4 +1,4 @@
-/----------------------------------
+//----------------------------------
 // LESSON 1 BASICS AND FUNCTIONS
 //----------------------------------
 
@@ -120,6 +120,9 @@ console.log("Q3: The variable I made false is: ", isRaining);
 // PUT YOUR CODE HERE
 let firstHelloString = " Hello, my name is " + firstName + " " + lastName + " and I was born in " + country + ".";
 console.log("Q4 first: ", firstHelloString);
+
+let secondHelloString = `Hello, my name is ${firstName} ${lastName} and I was born in ${country}.`;
+console.log("Q4 second: ", secondHelloString);
 
 // ---------- QUESTION 5 ----------
 // JavaScript Math
