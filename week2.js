@@ -190,7 +190,7 @@ console.log("Q7:", getElementAt(full, 7));
 
 function insertInArray(originalArray) {
     let newArray = originalArray.slice();
-    newArray.slice(1, 0, 0);
+    newArray.splice(1, 0, 0);
 
     return newArray;
 }
@@ -254,7 +254,7 @@ function calculateTotal(arr) {
     let total = 0;
 
     for (let i = 0; i < arr.length; i++) {
-        total += arr[1];
+        total += arr[i];
     }
     return total;
 }
@@ -315,7 +315,7 @@ function makeSquares(arr) {
     let newArray = [];
 
     for (let i = 0; i < arr.length; i++) {
-        newArray.push(arr[i]) * arr[i];
+        newArray.push(arr[i] * arr[i]);
     }
     return newArray;
 }
@@ -416,6 +416,9 @@ function testScope() {
     }
 }
 testScope();
+
+// console.log(functionVar);
+// console.log(blockVar);
 
 // ---------- GITHUB TASK ----------
 // This week, you cloned the new GitHub repository from week 1. 
