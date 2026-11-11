@@ -39,6 +39,7 @@ section {
 nav {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 25px;
     background-color: #14253d;
     padding: 15px;
@@ -74,9 +75,14 @@ nav a:hover {
 
 /* Connect section */
 
+#Connect {
+    text-align: center;
+}
+
 #Connect ul {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 20px;
     padding: 0;
     list-style: none;
