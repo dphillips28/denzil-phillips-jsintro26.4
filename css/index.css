@@ -1,3 +1,5 @@
+/* General page styling */
+
 body {
     background-color: #f5f7fa;
     color: #243447;
@@ -99,4 +101,24 @@ nav a:hover {
 
 #Connect a:hover {
     background-color: #556d9a;
+}
+
+/* Lesson 7: Skills Section Styling */
+
+#Skills ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    list-style-type: none;
+    padding: 0;
+}
+
+#Skills li {
+    background-color: #e8eef5;
+    color: #243447;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    flex: 1 1 180px;
+    text-align: center;
 }
